@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Videos com HTML 5</title>
 </head>
 <body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu prórpio servidor.</p>
     
+    <video width="500" poster="imagem/png-transparent-lemon-lime-fruit-oil-vegetable-lemon-natural-foods-food-orange.png" controls autoplay loop>
+        <source src="midia/bond.mp4" type="video/mp4">
+        <source src="midia/bond_web.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos.</p>
+    </video>
+
+    <h1>Inserindo videos do Youtube.</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3TLcFzWoUmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 </body>
 </html>
